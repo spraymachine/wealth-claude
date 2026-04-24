@@ -1,0 +1,284 @@
+- generic [active] [ref=e1]:
+  - navigation "Primary" [ref=e2]:
+    - link "W Wealth Media" [ref=e3] [cursor=pointer]:
+      - /url: /index.html
+      - generic [ref=e5]: W
+      - generic [ref=e6]: Wealth Media
+    - generic [ref=e7]:
+      - link "Home" [ref=e8] [cursor=pointer]:
+        - /url: /index.html
+      - link "Services" [ref=e9] [cursor=pointer]:
+        - /url: /services.html
+      - link "Works" [ref=e10] [cursor=pointer]:
+        - /url: /works.html
+      - link "About" [ref=e11] [cursor=pointer]:
+        - /url: /about.html
+    - link "Start a project" [ref=e12] [cursor=pointer]:
+      - /url: /contact.html
+      - text: Start a project
+      - img [ref=e14]
+  - generic:
+    - link "Home":
+      - /url: /index.html
+    - link "Services":
+      - /url: /services.html
+    - link "Works":
+      - /url: /works.html
+    - link "About":
+      - /url: /about.html
+    - link "Contact":
+      - /url: /contact.html
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e19]:
+        - generic [ref=e21]: Digital + Offline · 22 States · 8 Languages
+        - heading "Regional reach. Metro-grade craft." [level=1] [ref=e23]:
+          - generic [ref=e25]: Regional reach.
+          - generic [ref=e27]:
+            - text: Metro-grade
+            - emphasis [ref=e28]: craft.
+        - generic [ref=e29]:
+          - paragraph [ref=e30]: Wealth Media Agency is a results-driven studio turning regional attention into measurable business growth — influencer campaigns, performance ads, and a street-level offline network spanning every corner of India.
+          - generic [ref=e31]:
+            - link "Explore services" [ref=e32] [cursor=pointer]:
+              - /url: /services.html
+              - text: Explore services
+              - img [ref=e34]
+            - link "See the work" [ref=e36] [cursor=pointer]:
+              - /url: /works.html
+              - text: See the work
+              - img [ref=e38]
+      - generic [ref=e41]: Scroll
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]: 0+
+        - generic [ref=e49]: States covered
+      - generic [ref=e50]:
+        - generic [ref=e51]: "0"
+        - generic [ref=e53]: Native languages
+      - generic [ref=e54]:
+        - generic [ref=e55]: 0+
+        - generic [ref=e57]: Influencer partners
+      - generic [ref=e58]:
+        - generic [ref=e59]: 0%
+        - generic [ref=e61]: Client retention
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - text: Telugu
+          - generic [ref=e67]: తెలుగు
+        - generic [ref=e68]:
+          - text: Hindi
+          - generic [ref=e70]: हिंदी
+        - generic [ref=e71]:
+          - text: Tamil
+          - generic [ref=e73]: தமிழ்
+        - generic [ref=e74]:
+          - text: Kannada
+          - generic [ref=e76]: ಕನ್ನಡ
+        - generic [ref=e77]:
+          - text: Malayalam
+          - generic [ref=e79]: മലയാളം
+        - generic [ref=e80]:
+          - text: Marathi
+          - generic [ref=e82]: मराठी
+        - generic [ref=e83]:
+          - text: Bengali
+          - generic [ref=e85]: বাংলা
+        - generic [ref=e86]:
+          - text: Punjabi
+          - generic [ref=e88]: ਪੰਜਾਬੀ
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - text: Telugu
+          - generic [ref=e92]: తెలుగు
+        - generic [ref=e93]:
+          - text: Hindi
+          - generic [ref=e95]: हिंदी
+        - generic [ref=e96]:
+          - text: Tamil
+          - generic [ref=e98]: தமிழ்
+        - generic [ref=e99]:
+          - text: Kannada
+          - generic [ref=e101]: ಕನ್ನಡ
+        - generic [ref=e102]:
+          - text: Malayalam
+          - generic [ref=e104]: മലയാളം
+        - generic [ref=e105]:
+          - text: Marathi
+          - generic [ref=e107]: मराठी
+        - generic [ref=e108]:
+          - text: Bengali
+          - generic [ref=e110]: বাংলা
+        - generic [ref=e111]:
+          - text: Punjabi
+          - generic [ref=e113]: ਪੰਜਾਬੀ
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - heading "What we build for brands." [level=2] [ref=e117]
+        - generic [ref=e118]:
+          - generic [ref=e119]: Capabilities · 04
+          - paragraph [ref=e121]: Every engagement is a tight mix of paid, earned and owned media — localised at the district level, measured at the rupee level.
+      - generic [ref=e122]:
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e126]: 01 — Earned
+            - img [ref=e128]
+          - heading "Influencer & Celebrity Campaigns" [level=3] [ref=e132]
+          - paragraph [ref=e133]: A deep bench of 340+ verified creators across Telugu, Hindi, Tamil, Kannada, Malayalam, Marathi, Bengali and Punjabi — from macro YouTube stars to hyper-local reels.
+          - generic [ref=e134]:
+            - generic [ref=e135]: YouTube
+            - generic [ref=e136]: Instagram
+            - generic [ref=e137]: Reels
+            - generic [ref=e138]: Celebrity talent
+          - generic [ref=e139]: View network →
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e143]: 02 — Paid
+            - img [ref=e145]
+          - heading "Performance Ads" [level=3] [ref=e148]
+          - paragraph [ref=e149]: Meta and Google campaigns engineered to move the needle on CAC, ROAS and lead quality.
+          - generic [ref=e150]: Optimise →
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e154]: 03 — Offline
+            - img [ref=e156]
+          - heading "Street-level Visibility" [level=3] [ref=e158]
+          - paragraph [ref=e159]: Metro branding, auto & bus wraps, LED boards, paint flex, hoardings and gated-community networks across the country.
+          - generic [ref=e160]: See media kit →
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e164]: 04 — Owned
+            - img [ref=e166]
+          - heading "SEO & Content Systems" [level=3] [ref=e170]
+          - paragraph [ref=e171]: Keyword strategy, technical SEO, and always-on content production that compounds into durable organic growth.
+          - generic [ref=e172]: Grow traffic →
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]: Network
+        - heading "A creator network that speaks every India." [level=2] [ref=e179]:
+          - text: A creator network
+          - text: that speaks every India.
+        - paragraph [ref=e180]: From Chennai auto-rickshaws to Ludhiana dhabas, our network reaches the people who actually buy. Regional-first, brief-forward, receipt-obsessed.
+        - link "Explore the network" [ref=e182] [cursor=pointer]:
+          - /url: /works.html
+          - text: Explore the network
+          - img [ref=e184]
+      - generic [ref=e187]:
+        - generic [ref=e191]:
+          - generic [ref=e192]: 340+
+          - generic [ref=e193]: Creators
+        - generic [ref=e194]: Telugu · తెలుగు
+        - generic [ref=e195]: Hindi · हिंदी
+        - generic [ref=e196]: Tamil · தமிழ்
+        - generic [ref=e197]: Kannada
+        - generic [ref=e198]: Malayalam
+        - generic [ref=e199]: Marathi
+        - generic [ref=e200]: Bengali
+        - generic [ref=e201]: Punjabi
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - heading "From brief to breakthrough." [level=2] [ref=e205]
+        - paragraph [ref=e207]: A four-stage system we've sharpened across hundreds of campaigns — calibrated for India's regional complexity.
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - generic [ref=e210]: — 01 DISCOVER
+          - heading "Understand." [level=3] [ref=e211]
+          - paragraph [ref=e212]: We map your audience, language, region and category before we pitch a single creative idea.
+        - generic [ref=e213]:
+          - generic [ref=e214]: — 02 DESIGN
+          - heading "Compose." [level=3] [ref=e215]
+          - paragraph [ref=e216]: Strategy, scripts, creators and placements woven into one orchestrated rollout.
+        - generic [ref=e217]:
+          - generic [ref=e218]: — 03 DEPLOY
+          - heading "Launch." [level=3] [ref=e219]
+          - paragraph [ref=e220]: Ads live. Influencers shooting. Out-of-home crews pasting. Everything in motion, on brief.
+        - generic [ref=e221]:
+          - generic [ref=e222]: — 04 DECODE
+          - heading "Measure." [level=3] [ref=e223]
+          - paragraph [ref=e224]: Weekly dashboards, honest reads, and the next iteration already queued up.
+    - generic [ref=e226]:
+      - generic [ref=e227]:
+        - heading "What founders say about us." [level=2] [ref=e228]:
+          - text: What founders
+          - text: say about us.
+        - generic [ref=e230]: Receipts · 03
+      - generic [ref=e232]:
+        - generic [ref=e233]:
+          - generic [ref=e234]: “
+          - paragraph [ref=e235]: They understood our brand in Telugu and Tamil before we could even brief them. Leads tripled in six weeks.
+          - generic [ref=e236]:
+            - generic [ref=e237]: RV
+            - generic [ref=e238]:
+              - strong [ref=e239]: Rahul V.
+              - text: Founder · Ed-tech, Hyderabad
+        - generic [ref=e240]:
+          - generic [ref=e241]: “
+          - paragraph [ref=e242]: We wanted an agency that understood the street, not just the algorithm. Wealth delivers both, without the agency theatre.
+          - generic [ref=e243]:
+            - generic [ref=e244]: AK
+            - generic [ref=e245]:
+              - strong [ref=e246]: Ayesha K.
+              - text: CMO · D2C Beauty
+        - generic [ref=e247]:
+          - generic [ref=e248]: “
+          - paragraph [ref=e249]: Metro wraps, bus shelters, and reels — all scheduled around the same launch window. It just worked.
+          - generic [ref=e250]:
+            - generic [ref=e251]: SM
+            - generic [ref=e252]:
+              - strong [ref=e253]: Salim M.
+              - text: Marketing Head · Retail
+  - contentinfo [ref=e254]:
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - paragraph [ref=e257]: Based in Hyderabad · Serving 22 states
+        - heading "Let's build something that earns attention." [level=2] [ref=e259]:
+          - text: Let's build
+          - text: something that earns attention.
+        - link "Start a project" [ref=e261] [cursor=pointer]:
+          - /url: /contact.html
+          - text: Start a project
+          - img [ref=e263]
+      - generic [ref=e265]:
+        - generic [ref=e266]:
+          - heading "Studio" [level=4] [ref=e267]
+          - paragraph [ref=e268]:
+            - text: Shankar Plaza, 3rd Floor
+            - text: Dwarak Nagar Diamond Park
+            - text: Opposite Shankar Matam Temple
+            - text: Hyderabad, India
+        - generic [ref=e269]:
+          - heading "Pages" [level=4] [ref=e270]
+          - link "Home" [ref=e271] [cursor=pointer]:
+            - /url: /index.html
+          - link "Services" [ref=e272] [cursor=pointer]:
+            - /url: /services.html
+          - link "Works" [ref=e273] [cursor=pointer]:
+            - /url: /works.html
+          - link "About" [ref=e274] [cursor=pointer]:
+            - /url: /about.html
+          - link "Contact" [ref=e275] [cursor=pointer]:
+            - /url: /contact.html
+        - generic [ref=e276]:
+          - heading "Services" [level=4] [ref=e277]
+          - link "Online Marketing" [ref=e278] [cursor=pointer]:
+            - /url: /services.html#online
+          - link "Offline Marketing" [ref=e279] [cursor=pointer]:
+            - /url: /services.html#offline
+          - link "Influencer Campaigns" [ref=e280] [cursor=pointer]:
+            - /url: /services.html#influencers
+          - link "Brand & Identity" [ref=e281] [cursor=pointer]:
+            - /url: /services.html#branding
+        - generic [ref=e282]:
+          - heading "Contact" [level=4] [ref=e283]
+          - link "salman@wealthmediagency.com" [ref=e284] [cursor=pointer]:
+            - /url: mailto:salman@wealthmediagency.com
+          - link "+91 93469 07002" [ref=e285] [cursor=pointer]:
+            - /url: tel:+919346907002
+          - link "Instagram" [ref=e286] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=e287] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e288]:
+        - generic [ref=e289]: © 2026 Wealth Media Agency — All rights reserved.
+        - generic [ref=e290]: Results-driven. Regionally fluent.

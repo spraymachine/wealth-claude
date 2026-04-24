@@ -1,0 +1,238 @@
+- generic [active] [ref=e1]:
+  - navigation "Primary" [ref=e2]:
+    - link "W Wealth Media" [ref=e3] [cursor=pointer]:
+      - /url: /index.html
+      - generic [ref=e5]: W
+      - generic [ref=e6]: Wealth Media
+    - generic [ref=e7]:
+      - link "Home" [ref=e8] [cursor=pointer]:
+        - /url: /index.html
+      - link "Services" [ref=e9] [cursor=pointer]:
+        - /url: /services.html
+      - link "Works" [ref=e10] [cursor=pointer]:
+        - /url: /works.html
+      - link "About" [ref=e11] [cursor=pointer]:
+        - /url: /about.html
+    - link "Start a project" [ref=e12] [cursor=pointer]:
+      - /url: /contact.html
+      - text: Start a project
+      - img [ref=e14]
+  - generic:
+    - link "Home":
+      - /url: /index.html
+    - link "Services":
+      - /url: /services.html
+    - link "Works":
+      - /url: /works.html
+    - link "About":
+      - /url: /about.html
+    - link "Contact":
+      - /url: /contact.html
+  - main [ref=e16]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - link "Home" [ref=e21] [cursor=pointer]:
+          - /url: /index.html
+        - generic [ref=e22]: /
+        - generic [ref=e23]: Services
+      - generic [ref=e24]: Capabilities
+      - heading "Paid, earned, and physical." [level=1] [ref=e26]:
+        - text: Paid, earned,
+        - text: and physical.
+      - paragraph [ref=e27]: Four interlocked capabilities — enough firepower to run a national launch, enough nuance to win the pincode war. Pick one, or run the full stack.
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Online Marketing services." [level=2] [ref=e31]:
+          - text: Online
+          - text: Marketing services.
+        - generic [ref=e32]:
+          - generic [ref=e33]: 01 · Digital
+          - paragraph [ref=e35]: From Instagram reels that go regional to Meta + Google campaigns tuned to the last-click, we run the whole funnel — with attribution your board can read.
+      - generic [ref=e36]:
+        - generic [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]: — 01
+          - generic [ref=e39]: Influencer Marketing
+          - generic [ref=e40]: Macro, mid-tier, and nano creators across 8 languages and 340+ verified partners.
+          - img [ref=e42]
+        - generic [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: — 02
+          - generic [ref=e46]: Celebrity Campaigns
+          - generic [ref=e47]: Full-service casting, scripting, shoot, clearance, and amplification through YouTube and broadcast.
+          - img [ref=e49]
+        - generic [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: — 03
+          - generic [ref=e53]: Meta & Google Ads
+          - generic [ref=e54]: Full-funnel paid media engineered for ROAS, CAC, and lead-quality benchmarks.
+          - img [ref=e56]
+        - generic [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: — 04
+          - generic [ref=e60]: SEO & ASO
+          - generic [ref=e61]: Technical SEO, content operations and app-store optimisation with compounding organic returns.
+          - img [ref=e63]
+        - generic [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: — 05
+          - generic [ref=e67]: Social Media Management
+          - generic [ref=e68]: Always-on publishing, community response, and Twitter / X reputation work across regions.
+          - img [ref=e70]
+        - generic [ref=e72] [cursor=pointer]:
+          - generic [ref=e73]: — 06
+          - generic [ref=e74]: YouTube & Reels Production
+          - generic [ref=e75]: Hook-first short-form, branded integrations, and long-form campaigns optimised for watchtime.
+          - img [ref=e77]
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - heading "Offline Marketing services." [level=2] [ref=e82]:
+          - text: Offline
+          - text: Marketing services.
+        - generic [ref=e83]:
+          - generic [ref=e84]: 02 · Physical
+          - paragraph [ref=e86]: We own the streets. Literally. A network of placements across metros, commercial corridors, and gated communities — booked, printed, pasted, measured.
+      - generic [ref=e87]:
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]: 01 — Transit
+            - img [ref=e93]
+          - heading "Metro, Bus & Auto Branding" [level=3] [ref=e97]
+          - paragraph [ref=e98]: Full vehicle wraps, interior posters, bus shelters, auto hoods and metro station takeovers — nation-wide inventory.
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e102]: 02 — Visual
+            - img [ref=e104]
+          - heading "Hoardings & LED Boards" [level=3] [ref=e107]
+          - paragraph [ref=e108]: Strategic high-footfall placements with digital LED inventory in 40+ cities — day-parted and rotation-optimised.
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: 03 — Community
+            - img [ref=e114]
+          - heading "Gated-Community Networks" [level=3] [ref=e117]
+          - paragraph [ref=e118]: Residential exclusivity — lift panels, lobby stands, weekend activations. 1,200+ societies across metros.
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e122]: 04 — Print
+            - img [ref=e124]
+          - heading "Paint Flex, BG Boards & Visiting Cards" [level=3] [ref=e128]
+          - paragraph [ref=e129]: Retail signage, storefront branding, printed collateral and identity basics — produced, shipped, installed.
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e133]: 05 — Point of Sale
+            - img [ref=e135]
+          - heading "Shop-in-shop & Point-of-Sale" [level=3] [ref=e139]
+          - paragraph [ref=e140]: Retailer collateral, shelf dominance, in-store standees and event collateral — regional language-first.
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - heading "Creator specialisms." [level=2] [ref=e144]:
+          - text: Creator
+          - text: specialisms.
+        - generic [ref=e145]:
+          - generic [ref=e146]: 03 · Network
+          - paragraph [ref=e148]: Regional creators ranked by engagement, authenticity and brand-safety. Cohorts refreshed monthly.
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - generic [ref=e151]: Telugu
+          - generic [ref=e152]: తెలుగు
+          - generic [ref=e153]: 68 creators · Andhra, Telangana
+        - generic [ref=e154]:
+          - generic [ref=e155]: Hindi
+          - generic [ref=e156]: हिंदी
+          - generic [ref=e157]: 82 creators · North India
+        - generic [ref=e158]:
+          - generic [ref=e159]: Tamil
+          - generic [ref=e160]: தமிழ்
+          - generic [ref=e161]: 54 creators · Tamil Nadu
+        - generic [ref=e162]:
+          - generic [ref=e163]: Kannada
+          - generic [ref=e164]: ಕನ್ನಡ
+          - generic [ref=e165]: 41 creators · Karnataka
+        - generic [ref=e166]:
+          - generic [ref=e167]: Malayalam
+          - generic [ref=e168]: മലയാളം
+          - generic [ref=e169]: 29 creators · Kerala
+        - generic [ref=e170]:
+          - generic [ref=e171]: Marathi
+          - generic [ref=e172]: मराठी
+          - generic [ref=e173]: 33 creators · Maharashtra
+        - generic [ref=e174]:
+          - generic [ref=e175]: Bengali
+          - generic [ref=e176]: বাংলা
+          - generic [ref=e177]: 22 creators · WB, Assam
+        - generic [ref=e178]:
+          - generic [ref=e179]: Punjabi
+          - generic [ref=e180]: ਪੰਜਾਬੀ
+          - generic [ref=e181]: 16 creators · Punjab, Haryana
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - generic [ref=e186]: 04 · Identity
+        - heading "Brand systems built to travel." [level=2] [ref=e188]:
+          - text: Brand systems
+          - text: built to travel.
+        - paragraph [ref=e189]: Your identity has to survive translation — literally. Logos, type systems, packaging and guidelines engineered for eight scripts, not just Latin.
+        - link "Brief us" [ref=e191] [cursor=pointer]:
+          - /url: /contact.html
+          - text: Brief us
+          - img [ref=e193]
+      - generic [ref=e197]:
+        - generic [ref=e198]:
+          - generic [ref=e199]: W
+          - generic [ref=e200]: W
+          - generic [ref=e201]: W
+          - generic [ref=e202]: തെ
+          - generic [ref=e203]: தே
+          - generic [ref=e204]: हिं
+          - generic [ref=e205]: ಕ
+          - generic [ref=e206]: ਪ
+          - generic [ref=e207]: বা
+        - paragraph [ref=e208]: Identity · 9 scripts · One system
+  - contentinfo [ref=e209]:
+    - generic [ref=e210]:
+      - generic [ref=e211]:
+        - paragraph [ref=e212]: Based in Hyderabad · Serving 22 states
+        - heading "Let's build something that earns attention." [level=2] [ref=e214]:
+          - text: Let's build
+          - text: something that earns attention.
+        - link "Start a project" [ref=e216] [cursor=pointer]:
+          - /url: /contact.html
+          - text: Start a project
+          - img [ref=e218]
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - heading "Studio" [level=4] [ref=e222]
+          - paragraph [ref=e223]:
+            - text: Shankar Plaza, 3rd Floor
+            - text: Dwarak Nagar Diamond Park
+            - text: Opposite Shankar Matam Temple
+            - text: Hyderabad, India
+        - generic [ref=e224]:
+          - heading "Pages" [level=4] [ref=e225]
+          - link "Home" [ref=e226] [cursor=pointer]:
+            - /url: /index.html
+          - link "Services" [ref=e227] [cursor=pointer]:
+            - /url: /services.html
+          - link "Works" [ref=e228] [cursor=pointer]:
+            - /url: /works.html
+          - link "About" [ref=e229] [cursor=pointer]:
+            - /url: /about.html
+          - link "Contact" [ref=e230] [cursor=pointer]:
+            - /url: /contact.html
+        - generic [ref=e231]:
+          - heading "Services" [level=4] [ref=e232]
+          - link "Online Marketing" [ref=e233] [cursor=pointer]:
+            - /url: /services.html#online
+          - link "Offline Marketing" [ref=e234] [cursor=pointer]:
+            - /url: /services.html#offline
+          - link "Influencer Campaigns" [ref=e235] [cursor=pointer]:
+            - /url: /services.html#influencers
+          - link "Brand & Identity" [ref=e236] [cursor=pointer]:
+            - /url: /services.html#branding
+        - generic [ref=e237]:
+          - heading "Contact" [level=4] [ref=e238]
+          - link "salman@wealthmediagency.com" [ref=e239] [cursor=pointer]:
+            - /url: mailto:salman@wealthmediagency.com
+          - link "+91 93469 07002" [ref=e240] [cursor=pointer]:
+            - /url: tel:+919346907002
+          - link "Instagram" [ref=e241] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=e242] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e243]:
+        - generic [ref=e244]: © 2026 Wealth Media Agency — All rights reserved.
+        - generic [ref=e245]: Results-driven. Regionally fluent.

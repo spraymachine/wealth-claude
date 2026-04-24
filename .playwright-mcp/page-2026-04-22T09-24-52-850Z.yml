@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Wealth Media Agency home" [ref=e4] [cursor=pointer]:
+        - /url: ./index.html
+        - img "Wealth Media Agency logo" [ref=e5]
+        - generic [ref=e6]:
+          - strong [ref=e7]: Wealth Media Agency
+          - generic [ref=e8]: Best digital marketing agency
+      - navigation "Primary" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: ./index.html
+        - link "Our Services" [ref=e11] [cursor=pointer]:
+          - /url: ./services.html
+        - link "Our Work" [ref=e12] [cursor=pointer]:
+          - /url: ./work.html
+        - link "About Us" [ref=e13] [cursor=pointer]:
+          - /url: ./about.html
+        - link "Let’s Talk" [ref=e14] [cursor=pointer]:
+          - /url: mailto:salman@wealthmediagency.com
+  - main [ref=e15]
+  - contentinfo [ref=e26]

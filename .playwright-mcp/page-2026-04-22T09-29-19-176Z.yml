@@ -1,0 +1,168 @@
+- generic [active] [ref=e1]:
+  - navigation "Primary" [ref=e2]:
+    - link "W Wealth Media" [ref=e3] [cursor=pointer]:
+      - /url: /index.html
+      - generic [ref=e5]: W
+      - generic [ref=e6]: Wealth Media
+    - generic [ref=e7]:
+      - link "Home" [ref=e8] [cursor=pointer]:
+        - /url: /index.html
+      - link "Services" [ref=e9] [cursor=pointer]:
+        - /url: /services.html
+      - link "Works" [ref=e10] [cursor=pointer]:
+        - /url: /works.html
+      - link "About" [ref=e11] [cursor=pointer]:
+        - /url: /about.html
+    - link "Start a project" [ref=e12] [cursor=pointer]:
+      - /url: /contact.html
+      - text: Start a project
+      - img [ref=e14]
+  - generic:
+    - link "Home":
+      - /url: /index.html
+    - link "Services":
+      - /url: /services.html
+    - link "Works":
+      - /url: /works.html
+    - link "About":
+      - /url: /about.html
+    - link "Contact":
+      - /url: /contact.html
+  - main [ref=e16]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - link "Home" [ref=e21] [cursor=pointer]:
+          - /url: /index.html
+        - generic [ref=e22]: /
+        - generic [ref=e23]: Contact
+      - generic [ref=e24]: New enquiries
+      - heading "Tell us the ambition." [level=1] [ref=e26]:
+        - text: Tell us
+        - text: the ambition.
+      - paragraph [ref=e27]: The fastest route to us is the form below. For senior-level enquiries we respond inside one working day, in English, Hindi or Telugu.
+    - generic [ref=e30]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: New project
+          - generic [ref=e37]: Reply in < 24 hrs
+        - heading "Let's talk." [level=2] [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: Your name
+            - textbox "Jane Doe" [ref=e42]
+          - generic [ref=e43]:
+            - generic [ref=e44]: Company
+            - textbox "Acme Co." [ref=e45]
+          - generic [ref=e46]:
+            - generic [ref=e47]: Email
+            - textbox "you@company.com" [ref=e48]
+          - generic [ref=e49]:
+            - generic [ref=e50]: Phone
+            - textbox "+91 98765 43210" [ref=e51]
+          - generic [ref=e52]:
+            - generic [ref=e53]: What are we building?
+            - textbox "Tell us about the ambition, the market, the rough budget. Pin down the languages or regions you care about." [ref=e54]
+          - button "Send brief" [ref=e56] [cursor=pointer]:
+            - text: Send brief
+            - img [ref=e58]
+      - generic [ref=e60]:
+        - generic [ref=e62]:
+          - generic [ref=e63]: Direct lines
+          - heading "Speak to us directly." [level=3] [ref=e65]
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: Email
+              - link "salman@wealthmediagency.com" [ref=e69] [cursor=pointer]:
+                - /url: mailto:salman@wealthmediagency.com
+            - generic [ref=e71]:
+              - generic [ref=e72]: Phone
+              - link "+91 93469 07002" [ref=e73] [cursor=pointer]:
+                - /url: tel:+919346907002
+            - generic [ref=e75]:
+              - generic [ref=e76]: Hours
+              - generic [ref=e77]: Mon – Sat · 10:00 – 19:00 IST
+        - generic [ref=e79]:
+          - generic [ref=e80]: Studio
+          - generic [ref=e82]:
+            - text: Shankar Plaza, 3rd Floor
+            - text: Dwarak Nagar Diamond Park
+          - generic [ref=e83]: Opposite Shankar Matam Temple · Hyderabad
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - heading "Quick questions." [level=2] [ref=e87]
+        - paragraph [ref=e89]: Answers to the things most founders ask us before the first call.
+      - generic [ref=e90]:
+        - generic [ref=e91] [cursor=pointer]:
+          - generic [ref=e92]: — 01
+          - generic [ref=e93]: What's the smallest engagement you take on?
+          - generic [ref=e94]: We run focused, 8–12 week campaigns starting around ₹3L. Retainers scale up from there.
+          - img [ref=e96]
+        - generic [ref=e98] [cursor=pointer]:
+          - generic [ref=e99]: — 02
+          - generic [ref=e100]: Do you work outside of India?
+          - generic [ref=e101]: We've shipped diaspora campaigns across the Gulf, SEA, UK and US — in Indian-language creative.
+          - img [ref=e103]
+        - generic [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]: — 03
+          - generic [ref=e107]: How do you charge for influencers?
+          - generic [ref=e108]: Transparent pass-through on creator fees, a flat management fee, and zero kickbacks. Invoices itemised.
+          - img [ref=e110]
+        - generic [ref=e112] [cursor=pointer]:
+          - generic [ref=e113]: — 04
+          - generic [ref=e114]: Can you run offline-only campaigns?
+          - generic [ref=e115]: Yes — from a single metro station takeover to a nationwide bus & hoarding rollout.
+          - img [ref=e117]
+  - contentinfo [ref=e119]:
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - paragraph [ref=e122]: Based in Hyderabad · Serving 22 states
+        - heading "Let's build something that earns attention." [level=2] [ref=e124]:
+          - text: Let's build
+          - text: something that earns attention.
+        - link "Email the studio" [ref=e126] [cursor=pointer]:
+          - /url: mailto:salman@wealthmediagency.com
+          - text: Email the studio
+          - img [ref=e128]
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - heading "Studio" [level=4] [ref=e132]
+          - paragraph [ref=e133]:
+            - text: Shankar Plaza, 3rd Floor
+            - text: Dwarak Nagar Diamond Park
+            - text: Opposite Shankar Matam Temple
+            - text: Hyderabad, India
+        - generic [ref=e134]:
+          - heading "Pages" [level=4] [ref=e135]
+          - link "Home" [ref=e136] [cursor=pointer]:
+            - /url: /index.html
+          - link "Services" [ref=e137] [cursor=pointer]:
+            - /url: /services.html
+          - link "Works" [ref=e138] [cursor=pointer]:
+            - /url: /works.html
+          - link "About" [ref=e139] [cursor=pointer]:
+            - /url: /about.html
+          - link "Contact" [ref=e140] [cursor=pointer]:
+            - /url: /contact.html
+        - generic [ref=e141]:
+          - heading "Services" [level=4] [ref=e142]
+          - link "Online Marketing" [ref=e143] [cursor=pointer]:
+            - /url: /services.html#online
+          - link "Offline Marketing" [ref=e144] [cursor=pointer]:
+            - /url: /services.html#offline
+          - link "Influencer Campaigns" [ref=e145] [cursor=pointer]:
+            - /url: /services.html#influencers
+          - link "Brand & Identity" [ref=e146] [cursor=pointer]:
+            - /url: /services.html#branding
+        - generic [ref=e147]:
+          - heading "Contact" [level=4] [ref=e148]
+          - link "salman@wealthmediagency.com" [ref=e149] [cursor=pointer]:
+            - /url: mailto:salman@wealthmediagency.com
+          - link "+91 93469 07002" [ref=e150] [cursor=pointer]:
+            - /url: tel:+919346907002
+          - link "Instagram" [ref=e151] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=e152] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e153]:
+        - generic [ref=e154]: © 2026 Wealth Media Agency — All rights reserved.
+        - generic [ref=e155]: Results-driven. Regionally fluent.

@@ -1,0 +1,171 @@
+- generic [active] [ref=e1]:
+  - navigation "Primary" [ref=e2]:
+    - link "W Wealth Media" [ref=e3] [cursor=pointer]:
+      - /url: /index.html
+      - generic [ref=e5]: W
+      - generic [ref=e6]: Wealth Media
+    - generic [ref=e7]:
+      - link "Home" [ref=e8] [cursor=pointer]:
+        - /url: /index.html
+      - link "Services" [ref=e9] [cursor=pointer]:
+        - /url: /services.html
+      - link "Works" [ref=e10] [cursor=pointer]:
+        - /url: /works.html
+      - link "About" [ref=e11] [cursor=pointer]:
+        - /url: /about.html
+    - link "Start a project" [ref=e12] [cursor=pointer]:
+      - /url: /contact.html
+      - text: Start a project
+      - img [ref=e14]
+  - generic:
+    - link "Home":
+      - /url: /index.html
+    - link "Services":
+      - /url: /services.html
+    - link "Works":
+      - /url: /works.html
+    - link "About":
+      - /url: /about.html
+    - link "Contact":
+      - /url: /contact.html
+  - main [ref=e16]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - link "Home" [ref=e21] [cursor=pointer]:
+          - /url: /index.html
+        - generic [ref=e22]: /
+        - generic [ref=e23]: Works
+      - generic [ref=e24]: Case studies · 2023–2026
+      - heading "Work that moved markets." [level=1] [ref=e26]
+      - paragraph [ref=e27]: Selected campaigns with India's top regional influencers, digital-first brands and enterprise clients — every number below is live.
+    - generic [ref=e30]:
+      - link "Re 01 · Ed-tech · Telugu Regional launch that tripled signups in 42 days" [ref=e31] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e33]: Re
+        - generic [ref=e35]:
+          - generic [ref=e36]: 01 · Ed-tech · Telugu
+          - generic [ref=e37]: Regional launch that tripled signups in 42 days
+      - 'link "Co 02 · D2C · Pan-India Cosmetics: ROAS 5.7× on Meta + Reels" [ref=e38] [cursor=pointer]':
+        - /url: "#"
+        - generic [ref=e40]: Co
+        - generic [ref=e42]:
+          - generic [ref=e43]: 02 · D2C · Pan-India
+          - generic [ref=e44]: "Cosmetics: ROAS 5.7× on Meta + Reels"
+      - link "Mo 03 · Fintech · Hindi Metro takeover + YouTube sparked 4× signups" [ref=e45] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e47]: Mo
+        - generic [ref=e49]:
+          - generic [ref=e50]: 03 · Fintech · Hindi
+          - generic [ref=e51]: Metro takeover + YouTube sparked 4× signups
+      - link "Au 04 · Auto · Kannada Showroom footfall up 68% in launch quarter" [ref=e52] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e54]: Au
+        - generic [ref=e56]:
+          - generic [ref=e57]: 04 · Auto · Kannada
+          - generic [ref=e58]: Showroom footfall up 68% in launch quarter
+      - link "Fo 05 · Food · Tamil + Malayalam Dual-state campaign with 11 creators" [ref=e59] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e61]: Fo
+        - generic [ref=e63]:
+          - generic [ref=e64]: 05 · Food · Tamil + Malayalam
+          - generic [ref=e65]: Dual-state campaign with 11 creators
+      - link "Fa 06 · Fashion · Marathi Mumbai metro rollout for a direct-to-consumer label" [ref=e66] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e68]: Fa
+        - generic [ref=e70]:
+          - generic [ref=e71]: 06 · Fashion · Marathi
+          - generic [ref=e72]: Mumbai metro rollout for a direct-to-consumer label
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - generic [ref=e77]: Featured · 2025 Q4
+        - heading "Regional takeover for a unicorn." [level=2] [ref=e79]:
+          - text: Regional
+          - text: takeover
+          - text: for a unicorn.
+        - paragraph [ref=e80]: We orchestrated a six-week, seven-language rollout across Meta, YouTube, metro and out-of-home. The brand closed the quarter at a new category benchmark.
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]: Reach
+          - generic [ref=e85]: 0M
+          - generic [ref=e86]: Combined impressions across paid + earned
+        - generic [ref=e87]:
+          - generic [ref=e88]: ROAS
+          - generic [ref=e89]: 0×
+          - generic [ref=e90]: Return on ad spend, blended across funnel
+        - generic [ref=e91]:
+          - generic [ref=e92]: Creators
+          - generic [ref=e93]: "0"
+          - generic [ref=e94]: Creators synced across 7 languages
+        - generic [ref=e95]:
+          - generic [ref=e96]: Offline
+          - generic [ref=e97]: 0+
+          - generic [ref=e98]: Metro, auto and hoarding placements
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Brands that trust our craft." [level=2] [ref=e102]
+        - generic [ref=e104]: Partners
+      - generic [ref=e106]:
+        - generic [ref=e107]: Aurora
+        - generic [ref=e108]: Halcyon
+        - generic [ref=e109]: LUMEN/CO
+        - generic [ref=e110]: novus
+        - generic [ref=e111]: NORTH·WARE
+        - generic [ref=e112]: Kavya&Co
+        - generic [ref=e113]: PARVATI
+        - generic [ref=e114]: Olio
+        - generic [ref=e115]: TEHZEEB
+        - generic [ref=e116]: Sonder·Labs
+  - contentinfo [ref=e117]:
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - paragraph [ref=e120]: Based in Hyderabad · Serving 22 states
+        - heading "Let's build something that earns attention." [level=2] [ref=e122]:
+          - text: Let's build
+          - text: something that earns attention.
+        - link "Start a project" [ref=e124] [cursor=pointer]:
+          - /url: /contact.html
+          - text: Start a project
+          - img [ref=e126]
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - heading "Studio" [level=4] [ref=e130]
+          - paragraph [ref=e131]:
+            - text: Shankar Plaza, 3rd Floor
+            - text: Dwarak Nagar Diamond Park
+            - text: Opposite Shankar Matam Temple
+            - text: Hyderabad, India
+        - generic [ref=e132]:
+          - heading "Pages" [level=4] [ref=e133]
+          - link "Home" [ref=e134] [cursor=pointer]:
+            - /url: /index.html
+          - link "Services" [ref=e135] [cursor=pointer]:
+            - /url: /services.html
+          - link "Works" [ref=e136] [cursor=pointer]:
+            - /url: /works.html
+          - link "About" [ref=e137] [cursor=pointer]:
+            - /url: /about.html
+          - link "Contact" [ref=e138] [cursor=pointer]:
+            - /url: /contact.html
+        - generic [ref=e139]:
+          - heading "Services" [level=4] [ref=e140]
+          - link "Online Marketing" [ref=e141] [cursor=pointer]:
+            - /url: /services.html#online
+          - link "Offline Marketing" [ref=e142] [cursor=pointer]:
+            - /url: /services.html#offline
+          - link "Influencer Campaigns" [ref=e143] [cursor=pointer]:
+            - /url: /services.html#influencers
+          - link "Brand & Identity" [ref=e144] [cursor=pointer]:
+            - /url: /services.html#branding
+        - generic [ref=e145]:
+          - heading "Contact" [level=4] [ref=e146]
+          - link "salman@wealthmediagency.com" [ref=e147] [cursor=pointer]:
+            - /url: mailto:salman@wealthmediagency.com
+          - link "+91 93469 07002" [ref=e148] [cursor=pointer]:
+            - /url: tel:+919346907002
+          - link "Instagram" [ref=e149] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=e150] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e151]:
+        - generic [ref=e152]: © 2026 Wealth Media Agency — All rights reserved.
+        - generic [ref=e153]: Results-driven. Regionally fluent.

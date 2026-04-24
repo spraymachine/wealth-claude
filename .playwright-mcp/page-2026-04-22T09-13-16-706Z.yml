@@ -1,0 +1,106 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e8]:
+        - generic [ref=e12]:
+          - link "cropped-Screenshot-2025-01-15-002151.png" [ref=e13] [cursor=pointer]:
+            - /url: https://wealthmediagency.com/
+            - img "cropped-Screenshot-2025-01-15-002151.png" [ref=e14]
+          - generic:
+            - heading "Wealth Media Agency" [level=3] [ref=e15]:
+              - link "Wealth Media Agency" [ref=e16] [cursor=pointer]:
+                - /url: https://wealthmediagency.com/
+            - paragraph [ref=e17]: Best Digital Marketing Agency
+        - generic [ref=e19]:
+          - navigation [ref=e22]:
+            - list [ref=e23]:
+              - listitem [ref=e24]:
+                - link "Home" [ref=e25] [cursor=pointer]:
+                  - /url: https://wealthmediagency.com/
+                  - generic [ref=e26]: Home
+              - listitem [ref=e27]:
+                - link "Our Services" [ref=e28] [cursor=pointer]:
+                  - /url: https://wealthmediagency.com/?page_id=10
+                  - generic [ref=e29]: Our Services
+              - listitem [ref=e31]:
+                - link "Our Works" [ref=e32] [cursor=pointer]:
+                  - /url: https://wealthmediagency.com/?page_id=11
+                  - generic [ref=e33]: Our Works
+              - listitem [ref=e34]:
+                - link "About us" [ref=e35] [cursor=pointer]:
+                  - /url: https://wealthmediagency.com/?page_id=27
+                  - generic [ref=e36]: About us
+              - listitem [ref=e37]:
+                - link "Contact Us" [ref=e38] [cursor=pointer]:
+                  - /url: https://wealthmediagency.com/?page_id=12
+                  - generic [ref=e39]: Contact Us
+          - button "" [ref=e45] [cursor=pointer]
+    - generic [ref=e46]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - link [ref=e53] [cursor=pointer]:
+            - /url: https://wealthmediagency.com/?p=1
+          - link "Click here" [ref=e55] [cursor=pointer]:
+            - /url: https://wealthmediagency.com/?p=1
+            - generic [ref=e56]: Click here
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link [ref=e61] [cursor=pointer]:
+            - /url: https://wealthmediagency.com/?p=212
+          - link "Click here" [ref=e63] [cursor=pointer]:
+            - /url: https://wealthmediagency.com/?p=212
+            - generic [ref=e64]: Click here
+            - img [ref=e65]
+        - generic [ref=e67]:
+          - link [ref=e69] [cursor=pointer]:
+            - /url: https://wealthmediagency.com/?p=220
+          - link "Click here" [ref=e71] [cursor=pointer]:
+            - /url: https://wealthmediagency.com/?p=220
+            - generic [ref=e72]: Click here
+            - img [ref=e73]
+        - generic [ref=e75]:
+          - link [ref=e77] [cursor=pointer]:
+            - /url: https://wealthmediagency.com/?p=301
+          - link "Click here" [ref=e79] [cursor=pointer]:
+            - /url: https://wealthmediagency.com/?p=301
+            - generic [ref=e80]: Click here
+            - img [ref=e81]
+      - generic [ref=e84]:
+        - link [ref=e86] [cursor=pointer]:
+          - /url: https://wealthmediagency.com/?p=309
+        - link "Click here" [ref=e88] [cursor=pointer]:
+          - /url: https://wealthmediagency.com/?p=309
+          - generic [ref=e89]: Click here
+          - img [ref=e90]
+      - link "Call Us Now" [ref=e94] [cursor=pointer]:
+        - /url: https://wealthmediagency.com/?page_id=12
+        - generic [ref=e95]: Call Us Now
+        - img [ref=e96]
+    - contentinfo
+    - contentinfo [ref=e100]:
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - heading "About Us" [level=2] [ref=e107]
+            - paragraph [ref=e109]: "Wealth Media Agency is a results-driven digital marketing and branding agency focused on helping businesses grow online. We specialize in social media marketing, content creation, branding, and performance-driven campaigns that build strong visibility and real engagement. Our goal is simple: turn brands into authority and attention into growth."
+          - generic [ref=e110]:
+            - heading "Get in Touch" [level=2] [ref=e112]
+            - paragraph [ref=e114]: Shankar Plaza 3rd Floor, Dwarak Nagar Diamond Park, Opposite Shankar Matam Temple.
+            - paragraph [ref=e116]: "Email Id: salman@wealthmediagency.com"
+            - paragraph [ref=e118]: "Contact Number: +91 9346907002"
+            - list [ref=e120]:
+              - listitem [ref=e121]:
+                - link "Youtube" [ref=e122] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCPMu80IJ6PPYd8V2ysd3ibw
+                  - generic [ref=e123]: Youtube
+                  - img [ref=e124]
+              - listitem [ref=e126]:
+                - link "Instagram" [ref=e127] [cursor=pointer]:
+                  - /url: https://www.instagram.com/wealth_media_agency/?hl=en
+                  - generic [ref=e128]: Instagram
+                  - img [ref=e129]
+        - heading "© 2026 Wealth Media Agency | All rights reserved." [level=2] [ref=e135]
+  - generic:
+    - generic [ref=e141]: Shopping Basket
+    - text: 
+  - generic [ref=e146]: desktop
