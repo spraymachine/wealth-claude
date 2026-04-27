@@ -371,6 +371,22 @@ section{padding:clamp(5rem, 10vw, 10rem) 0;position:relative}
 .btn--ghost:hover .chev{background:var(--white);color:var(--ink)}
 .btn--blue{background:var(--blue)}
 .btn--blue:hover{background:var(--blue-deep)}
+.btn--whatsapp{
+  width:3.55rem;
+  height:3.55rem;
+  padding:0;
+  justify-content:center;
+  background:#25D366;
+  color:var(--white);
+  border:1px solid rgba(18,140,80,0.18);
+  box-shadow:0 18px 42px -24px rgba(37,211,102,0.75);
+}
+.btn--whatsapp svg{width:1.35rem;height:1.35rem;fill:currentColor}
+.btn--whatsapp:hover{
+  background:#128C7E;
+  color:var(--white);
+  box-shadow:0 22px 54px -26px rgba(18,140,126,0.72);
+}
 
 /* ---------- DOUBLE-BEZEL CARD ---------- */
 .bezel{
