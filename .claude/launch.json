@@ -2,10 +2,11 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "wealth",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "4821", "--directory", "site"],
-      "port": 4821
+      "name": "docs",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "docs", "--no-clipboard"],
+      "port": 3000,
+      "autoPort": true
     }
   ]
 }

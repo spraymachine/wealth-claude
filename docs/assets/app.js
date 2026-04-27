@@ -99,7 +99,7 @@ if(creatorTrack){
     'venu_virat_venu1'
   ]);
   const imageForHandle = (handle)=>(
-    localInfluencerImages.has(handle) ? `/assets/influencers/${handle}.jpg` : ''
+    localInfluencerImages.has(handle) ? `assets/influencers/${handle}.jpg` : ''
   );
   const creatorData = {
     Telugu: [
