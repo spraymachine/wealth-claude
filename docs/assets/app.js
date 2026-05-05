@@ -73,6 +73,62 @@ counters.forEach(c=>{
 // safety net
 window.addEventListener('load', ()=>setTimeout(()=>counters.forEach(runCounter), 1800));
 
+// Campaign carousel controls + auto loop
+const campaignCarousel = document.querySelector('[data-campaign-carousel]');
+if(campaignCarousel){
+  const viewport = campaignCarousel.querySelector('.campaign-carousel__viewport');
+  const cards = Array.from(campaignCarousel.querySelectorAll('.campaign-card'));
+  const prevButton = campaignCarousel.querySelector('[data-campaign-prev]');
+  const nextButton = campaignCarousel.querySelector('[data-campaign-next]');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let activeIndex = 0;
+  let autoplay;
+
+  const setActiveFromScroll = ()=>{
+    const currentLeft = viewport.scrollLeft;
+    activeIndex = cards.reduce((closestIndex, card, index)=>{
+      const closestDistance = Math.abs(cards[closestIndex].offsetLeft - currentLeft);
+      const cardDistance = Math.abs(card.offsetLeft - currentLeft);
+      return cardDistance < closestDistance ? index : closestIndex;
+    }, 0);
+  };
+
+  const goToCampaign = (index, behavior = 'smooth')=>{
+    activeIndex = (index + cards.length) % cards.length;
+    viewport.scrollTo({ left: cards[activeIndex].offsetLeft, behavior });
+  };
+
+  const stopAutoplay = ()=>window.clearInterval(autoplay);
+  const startAutoplay = ()=>{
+    if(reduceMotion || cards.length < 2) return;
+    stopAutoplay();
+    autoplay = window.setInterval(()=>goToCampaign(activeIndex + 1), 3600);
+  };
+
+  prevButton?.addEventListener('click', ()=>{
+    setActiveFromScroll();
+    goToCampaign(activeIndex - 1);
+    startAutoplay();
+  });
+  nextButton?.addEventListener('click', ()=>{
+    setActiveFromScroll();
+    goToCampaign(activeIndex + 1);
+    startAutoplay();
+  });
+  viewport.addEventListener('scroll', ()=>{
+    window.clearTimeout(viewport._campaignScrollTimer);
+    viewport._campaignScrollTimer = window.setTimeout(setActiveFromScroll, 90);
+  }, {passive:true});
+  campaignCarousel.addEventListener('mouseenter', stopAutoplay);
+  campaignCarousel.addEventListener('mouseleave', startAutoplay);
+  campaignCarousel.addEventListener('focusin', stopAutoplay);
+  campaignCarousel.addEventListener('focusout', startAutoplay);
+  window.addEventListener('resize', ()=>goToCampaign(activeIndex, 'auto'));
+
+  goToCampaign(0, 'auto');
+  startAutoplay();
+}
+
 // Hero influencer carousel
 const creatorTrack = document.querySelector('[data-creator-track]');
 if(creatorTrack){
@@ -178,9 +234,13 @@ if(creatorTrack){
 
   const renderCreators = (language)=>{
     const cards = creatorData[language] || creatorData.Telugu;
-    const markup = [...cards, ...cards].map((creator)=>`
+    const markup = [...cards, ...cards].map((creator)=>{
+      const image = imageForHandle(creator.handle);
+      const mediaStyle = image ? ` style="background-image:url('${image}')"` : '';
+      const mediaClass = image ? 'creator-card__media' : 'creator-card__media creator-card__media--empty';
+      return `
       <article class="creator-card" aria-label="${creator.name} @${creator.handle} with ${creator.followers} followers">
-        <div class="creator-card__media" style="background-image:url('${imageForHandle(creator.handle)}')"></div>
+        <div class="${mediaClass}"${mediaStyle} data-handle="${creator.handle}"></div>
         <div class="creator-card__body">
           <span class="creator-card__language">${language}</span>
           <div class="creator-card__handle">@${creator.handle}</div>
@@ -190,7 +250,8 @@ if(creatorTrack){
           </div>
         </div>
       </article>
-    `).join('');
+    `;
+    }).join('');
 
     creatorTrack.innerHTML = markup;
     if(languageLabel) languageLabel.textContent = `${language} creators`;

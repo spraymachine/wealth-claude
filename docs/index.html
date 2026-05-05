@@ -111,13 +111,11 @@
         <div class="hero-copy">
           <div class="reveal"><span class="eyebrow"><span class="dot"></span>Digital + Offline · 22 States · 8 Languages</span></div>
 
-          <h1 class="hero__title display-xl" aria-label="Grow your business with Digital Marketing">
-            <span class="line"><span>Grow your business</span></span>
-            <span class="line"><span>with <em class="serif">Digital Marketing</em></span></span>
-          </h1>
-
           <div class="hero__meta reveal">
-            <p class="lead">Regional-first campaigns for brands that want measurable reach across Telugu, Hindi, Tamil, Marati, Kannada and Malayalam-speaking audiences.</p>
+            <h1 class="hero__title hero__title--compact" aria-label="Grow your business with Digital Marketing">
+              <span class="line"><span>Grow your business</span></span>
+              <span class="line"><span>with <em class="serif">Digital Marketing</em></span></span>
+            </h1>
             <div class="hero__actions">
               <a href="works.html" class="btn">
                 Download Portfolio
@@ -136,28 +134,66 @@
           </div>
         </div>
 
-        <div class="hero-network reveal">
-          <div class="hero-network__top">
-            <p class="hero-network__label">Influencer filters</p>
-            <div class="hero-filters" role="tablist" aria-label="Regional influencer filters">
-              <button class="hero-filter is-active" type="button" data-language="Telugu" aria-pressed="true">Telugu</button>
-              <button class="hero-filter" type="button" data-language="Hindi" aria-pressed="false">Hindi</button>
-              <button class="hero-filter" type="button" data-language="Tamil" aria-pressed="false">Tamil</button>
-              <button class="hero-filter" type="button" data-language="Marati" aria-pressed="false">Marati</button>
-              <button class="hero-filter" type="button" data-language="Kannada" aria-pressed="false">Kannada</button>
-              <button class="hero-filter" type="button" data-language="Malayalam" aria-pressed="false">Malayalam</button>
+        <div class="campaign-carousel reveal" data-campaign-carousel aria-label="Campaign image carousel">
+          <div class="campaign-carousel__head">
+            <span class="campaign-carousel__kicker">Creative Bank</span>
+            <h2>Campaign images<br><span class="serif">ready for the next drop.</span></h2>
+            <div class="campaign-carousel__controls" aria-label="Campaign carousel controls">
+              <button class="campaign-carousel__button" type="button" data-campaign-prev aria-label="Previous campaign">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3.5 5.5 8l4.5 4.5"/></svg>
+              </button>
+              <button class="campaign-carousel__button" type="button" data-campaign-next aria-label="Next campaign">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3.5 10.5 8 6 12.5"/></svg>
+              </button>
             </div>
           </div>
-
-          <div class="hero-carousel">
-            <div class="hero-carousel__glow" aria-hidden="true"></div>
-            <div class="hero-carousel__viewport">
-              <div class="hero-carousel__track" data-creator-track></div>
+          <div class="campaign-carousel__viewport">
+            <div class="campaign-carousel__track">
+              <article class="campaign-card">
+                <div class="campaign-card__media campaign-card__media--image campaign-card__media--contain" style="background-image:url('assets/campaigns/Andhra.jpeg')" data-image-placeholder="01"></div>
+                <h3>AU 100yrs celebrations</h3>
+              </article>
+              <article class="campaign-card">
+                <div class="campaign-card__media campaign-card__media--image campaign-card__media--product" style="background-image:url('assets/campaigns/sanfe-product.jpg')" data-image-placeholder="02"></div>
+                <h3>Beauty product SANFE</h3>
+              </article>
+              <article class="campaign-card">
+                <div class="campaign-card__media campaign-card__media--image campaign-card__media--poster" style="background-image:url('assets/campaigns/vibrant-buildcon.jpg')" data-image-placeholder="03"></div>
+                <h3>Vibrant buildcon</h3>
+              </article>
+              <article class="campaign-card">
+                <div class="campaign-card__media campaign-card__media--image campaign-card__media--logo" style="background-image:url('assets/campaigns/vantage.jpg')" data-image-placeholder="04"></div>
+                <h3>Vantage</h3>
+              </article>
+              <article class="campaign-card">
+                <div class="campaign-card__media campaign-card__media--image campaign-card__media--photo" style="background-image:url('assets/campaigns/vysyaraju.gif')" data-image-placeholder="05"></div>
+                <h3>Vysyaraju jewellers</h3>
+              </article>
+              <article class="campaign-card">
+                <div class="campaign-card__media campaign-card__media--image campaign-card__media--logo" style="background-image:url('assets/campaigns/mukunda.jpg')" data-image-placeholder="06"></div>
+                <h3>Mukunda jewelers</h3>
+              </article>
+              <article class="campaign-card">
+                <div class="campaign-card__media campaign-card__media--image campaign-card__media--product" style="background-image:url('assets/campaigns/traya.webp')" data-image-placeholder="07"></div>
+                <h3>Traya</h3>
+              </article>
+              <article class="campaign-card">
+                <div class="campaign-card__media campaign-card__media--image campaign-card__media--logo" style="background-image:url('assets/campaigns/policybazaar.gif')" data-image-placeholder="08"></div>
+                <h3>Policy bazar</h3>
+              </article>
+              <article class="campaign-card">
+                <div class="campaign-card__media campaign-card__media--image campaign-card__media--poster" style="background-image:url('assets/campaigns/loveyapa.jpg')" data-image-placeholder="09"></div>
+                <h3>Loveyapa movie</h3>
+              </article>
+              <article class="campaign-card">
+                <div class="campaign-card__media campaign-card__media--image campaign-card__media--poster" style="background-image:url('assets/campaigns/meri-husband-ki-biwi.jpg')" data-image-placeholder="10"></div>
+                <h3>Meri husband ki biwi movie</h3>
+              </article>
             </div>
-            <div class="hero-carousel__foot">
-              <span class="hero-carousel__current" data-language-label>Telugu creators</span>
-              <span class="hero-carousel__meta">Instagram creator network</span>
-            </div>
+          </div>
+          <div class="campaign-carousel__foot">
+            <span>10 campaign references</span>
+            <span>Brand, product and movie creative</span>
           </div>
         </div>
       </div>
@@ -329,7 +365,7 @@
   </div>
 </section>
 
-<!-- INFLUENCER DIAL -->
+<!-- NETWORK CAROUSEL -->
 <section style="background:var(--paper-warm);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
   <div class="wrap">
     <div class="split">
@@ -345,23 +381,28 @@
         </div>
       </div>
 
-      <div class="reveal">
-        <div class="dial" aria-hidden="true">
-          <div class="dial__ring"></div>
-          <div class="dial__ring dial__ring--2"></div>
-          <div class="dial__ring dial__ring--3"></div>
-          <div class="dial__core">
-            <div class="num">10,000+</div>
-            <div class="lbl">Creators</div>
+      <div class="hero-network network-carousel reveal">
+        <div class="hero-network__top">
+          <p class="hero-network__label">Influencer filters</p>
+          <div class="hero-filters" role="tablist" aria-label="Regional influencer filters">
+            <button class="hero-filter is-active" type="button" data-language="Telugu" aria-pressed="true">Telugu</button>
+            <button class="hero-filter" type="button" data-language="Hindi" aria-pressed="false">Hindi</button>
+            <button class="hero-filter" type="button" data-language="Tamil" aria-pressed="false">Tamil</button>
+            <button class="hero-filter" type="button" data-language="Marati" aria-pressed="false">Marati</button>
+            <button class="hero-filter" type="button" data-language="Kannada" aria-pressed="false">Kannada</button>
+            <button class="hero-filter" type="button" data-language="Malayalam" aria-pressed="false">Malayalam</button>
           </div>
-          <div class="dial__pill" style="--a:0deg;--r:210px">Telugu · <span class="serif">తెలుగు</span></div>
-          <div class="dial__pill" style="--a:45deg;--r:210px">Hindi · <span class="serif">हिंदी</span></div>
-          <div class="dial__pill" style="--a:90deg;--r:210px">Tamil · <span class="serif">தமிழ்</span></div>
-          <div class="dial__pill" style="--a:135deg;--r:210px">Kannada</div>
-          <div class="dial__pill" style="--a:180deg;--r:210px">Malayalam</div>
-          <div class="dial__pill" style="--a:225deg;--r:210px">Marathi</div>
-          <div class="dial__pill" style="--a:270deg;--r:210px">Bengali</div>
-          <div class="dial__pill" style="--a:315deg;--r:210px">Punjabi</div>
+        </div>
+
+        <div class="hero-carousel">
+          <div class="hero-carousel__glow" aria-hidden="true"></div>
+          <div class="hero-carousel__viewport">
+            <div class="hero-carousel__track" data-creator-track></div>
+          </div>
+          <div class="hero-carousel__foot">
+            <span class="hero-carousel__current" data-language-label>Telugu creators</span>
+            <span class="hero-carousel__meta">Instagram creator network</span>
+          </div>
         </div>
       </div>
     </div>

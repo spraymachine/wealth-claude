@@ -1,0 +1,583 @@
+- generic [active] [ref=e1]:
+  - navigation "Primary" [ref=e2]:
+    - link "W Wealth Media" [ref=e3] [cursor=pointer]:
+      - /url: index.html
+      - generic [ref=e5]: W
+      - generic [ref=e6]: Wealth Media
+    - generic [ref=e7]:
+      - link "Home" [ref=e8] [cursor=pointer]:
+        - /url: index.html
+      - link "About" [ref=e9] [cursor=pointer]:
+        - /url: about.html
+      - generic [ref=e10]:
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: services.html
+          - text: Services
+        - generic:
+          - generic:
+            - generic:
+              - generic: Online Services
+              - link "View all →":
+                - /url: services.html
+            - generic:
+              - link "Branding Solution Identity, digital consistency, brand communication":
+                - /url: branding-solution.html
+                - generic:
+                  - img
+                - generic:
+                  - generic: Branding Solution
+                  - generic: Identity, digital consistency, brand communication
+              - link "Digital Marketing Social, search, paid media, influencers, content":
+                - /url: digital-marketing.html
+                - generic:
+                  - img
+                - generic:
+                  - generic: Digital Marketing
+                  - generic: Social, search, paid media, influencers, content
+              - link "Strategy & Planning Goals, audience mapping, platform strategy":
+                - /url: strategy-and-planning.html
+                - generic:
+                  - img
+                - generic:
+                  - generic: Strategy & Planning
+                  - generic: Goals, audience mapping, platform strategy
+              - link "Business Analysis Market position, customer behavior, opportunities":
+                - /url: business-analysis.html
+                - generic:
+                  - img
+                - generic:
+                  - generic: Business Analysis
+                  - generic: Market position, customer behavior, opportunities
+              - link "Market Research Demand, competition, pricing, category trends":
+                - /url: market-research.html
+                - generic:
+                  - img
+                - generic:
+                  - generic: Market Research
+                  - generic: Demand, competition, pricing, category trends
+          - generic:
+            - generic:
+              - generic: Physical Presence
+            - generic:
+              - link "Offline Marketing Metro branding, autos, buses, hoardings, LEDs":
+                - /url: services.html#offline
+                - generic:
+                  - img
+                - generic:
+                  - generic: Offline Marketing
+                  - generic: Metro branding, autos, buses, hoardings, LEDs
+            - generic:
+              - generic: "22"
+              - paragraph: States across India covered
+      - link "Works" [ref=e13] [cursor=pointer]:
+        - /url: works.html
+    - link "Start a project" [ref=e14] [cursor=pointer]:
+      - /url: contact.html
+      - text: Start a project
+      - img [ref=e16]
+  - generic:
+    - link "Home":
+      - /url: index.html
+    - link "About":
+      - /url: about.html
+    - generic:
+      - link "Services":
+        - /url: services.html
+      - generic:
+        - generic: Online
+        - link "Branding Solution":
+          - /url: branding-solution.html
+        - link "Digital Marketing":
+          - /url: digital-marketing.html
+        - link "Strategy & Planning":
+          - /url: strategy-and-planning.html
+        - link "Business Analysis":
+          - /url: business-analysis.html
+        - link "Market Research":
+          - /url: market-research.html
+        - generic: Offline
+        - link "Offline Marketing":
+          - /url: services.html#offline
+    - link "Works":
+      - /url: works.html
+    - link "Contact":
+      - /url: contact.html
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e25]: Digital + Offline · 22 States · 8 Languages
+          - generic [ref=e27]:
+            - heading "Grow your business with Digital Marketing" [level=1] [ref=e28]:
+              - generic [ref=e30]: Grow your business
+              - generic [ref=e32]:
+                - text: with
+                - emphasis [ref=e33]: Digital Marketing
+            - generic [ref=e34]:
+              - link "Download Portfolio" [ref=e35] [cursor=pointer]:
+                - /url: works.html
+                - text: Download Portfolio
+                - img [ref=e37]
+              - link "Contact" [ref=e39] [cursor=pointer]:
+                - /url: contact.html
+                - text: Contact
+                - img [ref=e41]
+              - link "Chat on WhatsApp at 9346907002" [ref=e43] [cursor=pointer]:
+                - /url: https://wa.me/919346907002
+                - img [ref=e44]
+        - generic "Campaign image carousel" [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: Creative Bank
+            - heading "Campaign images ready for the next drop." [level=2] [ref=e49]:
+              - text: Campaign images
+              - text: ready for the next drop.
+            - generic "Campaign carousel controls" [ref=e50]:
+              - button "Previous campaign" [ref=e51] [cursor=pointer]:
+                - img [ref=e52]
+              - button "Next campaign" [ref=e54] [cursor=pointer]:
+                - img [ref=e55]
+          - generic [ref=e58]:
+            - article [ref=e59]:
+              - generic [ref=e60]: "01"
+              - heading "AU 100yrs celebrations" [level=3] [ref=e61]
+            - article [ref=e62]:
+              - generic [ref=e63]: "02"
+              - heading "Beauty product SANFE" [level=3] [ref=e64]
+            - article [ref=e65]:
+              - generic [ref=e66]: "03"
+              - heading "Vibrant buildcon" [level=3] [ref=e67]
+            - article [ref=e68]:
+              - generic [ref=e69]: "04"
+              - heading "Vantage" [level=3] [ref=e70]
+            - article [ref=e71]:
+              - generic [ref=e72]: "05"
+              - heading "Vysyaraju jewellers" [level=3] [ref=e73]
+            - article [ref=e74]:
+              - generic [ref=e75]: "06"
+              - heading "Mukunda jewelers" [level=3] [ref=e76]
+            - article [ref=e77]:
+              - generic [ref=e78]: "07"
+              - heading "Traya" [level=3] [ref=e79]
+            - article [ref=e80]:
+              - generic [ref=e81]: "08"
+              - heading "Policy bazar" [level=3] [ref=e82]
+            - article [ref=e83]:
+              - generic [ref=e84]: "09"
+              - heading "Loveyapa movie" [level=3] [ref=e85]
+            - article [ref=e86]:
+              - generic [ref=e87]: "10"
+              - heading "Meri husband ki biwi movie" [level=3] [ref=e88]
+          - generic [ref=e89]:
+            - generic [ref=e90]: 10 campaign references
+            - generic [ref=e91]: Brand, product and movie creative
+      - generic [ref=e93]: Scroll
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]: 0+
+        - generic [ref=e101]: States covered
+      - generic [ref=e102]:
+        - generic [ref=e103]: 0+
+        - generic [ref=e105]: Influencer partners
+      - generic [ref=e106]:
+        - generic [ref=e107]: 0%
+        - generic [ref=e109]: Client retention
+    - generic [ref=e111]:
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - text: Telugu
+          - generic [ref=e115]: తెలుగు
+        - generic [ref=e116]:
+          - text: Hindi
+          - generic [ref=e118]: हिंदी
+        - generic [ref=e119]:
+          - text: Tamil
+          - generic [ref=e121]: தமிழ்
+        - generic [ref=e122]:
+          - text: Kannada
+          - generic [ref=e124]: ಕನ್ನಡ
+        - generic [ref=e125]:
+          - text: Malayalam
+          - generic [ref=e127]: മലയാളം
+        - generic [ref=e128]:
+          - text: Marathi
+          - generic [ref=e130]: मराठी
+        - generic [ref=e131]:
+          - text: Bengali
+          - generic [ref=e133]: বাংলা
+        - generic [ref=e134]:
+          - text: Punjabi
+          - generic [ref=e136]: ਪੰਜਾਬੀ
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - text: Telugu
+          - generic [ref=e140]: తెలుగు
+        - generic [ref=e141]:
+          - text: Hindi
+          - generic [ref=e143]: हिंदी
+        - generic [ref=e144]:
+          - text: Tamil
+          - generic [ref=e146]: தமிழ்
+        - generic [ref=e147]:
+          - text: Kannada
+          - generic [ref=e149]: ಕನ್ನಡ
+        - generic [ref=e150]:
+          - text: Malayalam
+          - generic [ref=e152]: മലയാളം
+        - generic [ref=e153]:
+          - text: Marathi
+          - generic [ref=e155]: मराठी
+        - generic [ref=e156]:
+          - text: Bengali
+          - generic [ref=e158]: বাংলা
+        - generic [ref=e159]:
+          - text: Punjabi
+          - generic [ref=e161]: ਪੰਜਾਬੀ
+    - generic [ref=e163]:
+      - generic [ref=e164]:
+        - heading "Our Services." [level=2] [ref=e165]
+        - generic [ref=e166]:
+          - generic [ref=e167]: Service Stack · 06
+          - paragraph [ref=e169]: "A cleaner service architecture now drives the site: five dedicated online offers with their own pages, plus the offline arm that carries your brand into the street."
+      - generic [ref=e170]:
+        - link "01 — Foundation Branding Solution Identity, storefront feel, digital consistency, and brand communication shaped into one coherent system that makes the business feel trusted at first glance. Visual branding Storefront look Digital consistency Brand messaging Open service page →" [ref=e171] [cursor=pointer]:
+          - /url: branding-solution.html
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - generic [ref=e174]: 01 — Foundation
+              - img [ref=e176]
+            - heading "Branding Solution" [level=3] [ref=e179]
+            - paragraph [ref=e180]: Identity, storefront feel, digital consistency, and brand communication shaped into one coherent system that makes the business feel trusted at first glance.
+            - generic [ref=e181]:
+              - generic [ref=e182]: Visual branding
+              - generic [ref=e183]: Storefront look
+              - generic [ref=e184]: Digital consistency
+              - generic [ref=e185]: Brand messaging
+            - generic [ref=e186]: Open service page →
+        - generic [ref=e187]:
+          - link "02 — Growth Digital Marketing Social, search, paid media, content, influencers, website promotion, and reporting aligned into one growth engine. Open service page →" [ref=e188] [cursor=pointer]:
+            - /url: digital-marketing.html
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - generic [ref=e191]: 02 — Growth
+                - img [ref=e193]
+              - heading "Digital Marketing" [level=3] [ref=e199]
+              - paragraph [ref=e200]: Social, search, paid media, content, influencers, website promotion, and reporting aligned into one growth engine.
+              - generic [ref=e201]: Open service page →
+          - link "03 — Roadmap Strategy & Planning Goals, audience mapping, platform choices, budget logic, and campaign structure defined before execution starts. Open service page →" [ref=e202] [cursor=pointer]:
+            - /url: strategy-and-planning.html
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - generic [ref=e205]: 03 — Roadmap
+                - img [ref=e207]
+              - heading "Strategy & Planning" [level=3] [ref=e213]
+              - paragraph [ref=e214]: Goals, audience mapping, platform choices, budget logic, and campaign structure defined before execution starts.
+              - generic [ref=e215]: Open service page →
+        - link "04 — Diagnosis Business Analysis Customer behavior, market position, and growth opportunities studied before the business commits to its next big push. Open service page →" [ref=e216] [cursor=pointer]:
+          - /url: business-analysis.html
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - generic [ref=e219]: 04 — Diagnosis
+              - img [ref=e221]
+            - heading "Business Analysis" [level=3] [ref=e223]
+            - paragraph [ref=e224]: Customer behavior, market position, and growth opportunities studied before the business commits to its next big push.
+            - generic [ref=e225]: Open service page →
+        - link "05 — Insight Market Research Demand, competition, pricing pressure, and category movement turned into evidence that sharpens positioning and planning. Open service page →" [ref=e226] [cursor=pointer]:
+          - /url: market-research.html
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - generic [ref=e229]: 05 — Insight
+              - img [ref=e231]
+            - heading "Market Research" [level=3] [ref=e234]
+            - paragraph [ref=e235]: Demand, competition, pricing pressure, and category movement turned into evidence that sharpens positioning and planning.
+            - generic [ref=e236]: Open service page →
+        - link "06 — Physical Offline Marketing Metro branding, autos, buses, hoardings, paint flex, LED boards, and gated-community presence built for real-world visibility. See offline services →" [ref=e237] [cursor=pointer]:
+          - /url: services.html#offline
+          - generic [ref=e238]:
+            - generic [ref=e239]:
+              - generic [ref=e240]: 06 — Physical
+              - img [ref=e242]
+            - heading "Offline Marketing" [level=3] [ref=e244]
+            - paragraph [ref=e245]: Metro branding, autos, buses, hoardings, paint flex, LED boards, and gated-community presence built for real-world visibility.
+            - generic [ref=e246]: See offline services →
+    - generic [ref=e249]:
+      - generic [ref=e250]:
+        - generic [ref=e251]: Network
+        - heading "A creator network that speaks every India." [level=2] [ref=e253]:
+          - text: A creator network
+          - text: that speaks every India.
+        - paragraph [ref=e254]: From Chennai auto-rickshaws to Ludhiana dhabas, our network reaches the people who actually buy. Regional-first, brief-forward, receipt-obsessed.
+        - link "Explore the network" [ref=e256] [cursor=pointer]:
+          - /url: works.html
+          - text: Explore the network
+          - img [ref=e258]
+      - generic [ref=e260]:
+        - generic [ref=e261]:
+          - paragraph [ref=e262]: Influencer filters · 10,000+ partners
+          - tablist "Regional influencer filters" [ref=e263]:
+            - button "Telugu" [pressed] [ref=e264] [cursor=pointer]
+            - button "Hindi" [ref=e265] [cursor=pointer]
+            - button "Tamil" [ref=e266] [cursor=pointer]
+            - button "Marati" [ref=e267] [cursor=pointer]
+            - button "Kannada" [ref=e268] [cursor=pointer]
+            - button "Malayalam" [ref=e269] [cursor=pointer]
+        - generic [ref=e270]:
+          - generic [ref=e272]:
+            - article "Kammari Venu Gopal @venu_virat_venu1 with 1.2M followers" [ref=e273]:
+              - generic [ref=e275]:
+                - generic [ref=e276]: Telugu
+                - generic [ref=e277]: "@venu_virat_venu1"
+                - generic [ref=e278]:
+                  - generic [ref=e279]: Kammari Venu Gopal
+                  - generic [ref=e280]: 1.2M
+            - article "Sai Goud @attitude_maxx01 with 1.3M followers" [ref=e281]:
+              - generic [ref=e283]:
+                - generic [ref=e284]: Telugu
+                - generic [ref=e285]: "@attitude_maxx01"
+                - generic [ref=e286]:
+                  - generic [ref=e287]: Sai Goud
+                  - generic [ref=e288]: 1.3M
+            - article "Mr. Suresh Guru @suresh__guru with 1.4M followers" [ref=e289]:
+              - generic [ref=e291]:
+                - generic [ref=e292]: Telugu
+                - generic [ref=e293]: "@suresh__guru"
+                - generic [ref=e294]:
+                  - generic [ref=e295]: Mr. Suresh Guru
+                  - generic [ref=e296]: 1.4M
+            - article "Siri Ravula Chary @siriravula.chary with 719K followers" [ref=e297]:
+              - generic [ref=e299]:
+                - generic [ref=e300]: Telugu
+                - generic [ref=e301]: "@siriravula.chary"
+                - generic [ref=e302]:
+                  - generic [ref=e303]: Siri Ravula Chary
+                  - generic [ref=e304]: 719K
+            - article "Kandimalla Sakethraju @raju_dhee10 with 885K followers" [ref=e305]:
+              - generic [ref=e306]: Photo pending
+              - generic [ref=e307]:
+                - generic [ref=e308]: Telugu
+                - generic [ref=e309]: "@raju_dhee10"
+                - generic [ref=e310]:
+                  - generic [ref=e311]: Kandimalla Sakethraju
+                  - generic [ref=e312]: 885K
+            - article "G RatnaKumar @nani_josh_ with 591K followers" [ref=e313]:
+              - generic [ref=e314]: Photo pending
+              - generic [ref=e315]:
+                - generic [ref=e316]: Telugu
+                - generic [ref=e317]: "@nani_josh_"
+                - generic [ref=e318]:
+                  - generic [ref=e319]: G RatnaKumar
+                  - generic [ref=e320]: 591K
+            - article "Dharani Gudla @dharanigudla with 433K followers" [ref=e321]:
+              - generic [ref=e322]: Photo pending
+              - generic [ref=e323]:
+                - generic [ref=e324]: Telugu
+                - generic [ref=e325]: "@dharanigudla"
+                - generic [ref=e326]:
+                  - generic [ref=e327]: Dharani Gudla
+                  - generic [ref=e328]: 433K
+            - article "Bad Boys @bad_boys_an with 620K followers" [ref=e329]:
+              - generic [ref=e330]: Photo pending
+              - generic [ref=e331]:
+                - generic [ref=e332]: Telugu
+                - generic [ref=e333]: "@bad_boys_an"
+                - generic [ref=e334]:
+                  - generic [ref=e335]: Bad Boys
+                  - generic [ref=e336]: 620K
+            - article "Mummy @_sridhar_chapa_ with 497K followers" [ref=e337]:
+              - generic [ref=e338]: Photo pending
+              - generic [ref=e339]:
+                - generic [ref=e340]: Telugu
+                - generic [ref=e341]: "@_sridhar_chapa_"
+                - generic [ref=e342]:
+                  - generic [ref=e343]: Mummy
+                  - generic [ref=e344]: 497K
+            - article "Happy Queen @happy_d_queen_ with 452K followers" [ref=e345]:
+              - generic [ref=e346]: Photo pending
+              - generic [ref=e347]:
+                - generic [ref=e348]: Telugu
+                - generic [ref=e349]: "@happy_d_queen_"
+                - generic [ref=e350]:
+                  - generic [ref=e351]: Happy Queen
+                  - generic [ref=e352]: 452K
+            - article "Kammari Venu Gopal @venu_virat_venu1 with 1.2M followers" [ref=e353]:
+              - generic [ref=e355]:
+                - generic [ref=e356]: Telugu
+                - generic [ref=e357]: "@venu_virat_venu1"
+                - generic [ref=e358]:
+                  - generic [ref=e359]: Kammari Venu Gopal
+                  - generic [ref=e360]: 1.2M
+            - article "Sai Goud @attitude_maxx01 with 1.3M followers" [ref=e361]:
+              - generic [ref=e363]:
+                - generic [ref=e364]: Telugu
+                - generic [ref=e365]: "@attitude_maxx01"
+                - generic [ref=e366]:
+                  - generic [ref=e367]: Sai Goud
+                  - generic [ref=e368]: 1.3M
+            - article "Mr. Suresh Guru @suresh__guru with 1.4M followers" [ref=e369]:
+              - generic [ref=e371]:
+                - generic [ref=e372]: Telugu
+                - generic [ref=e373]: "@suresh__guru"
+                - generic [ref=e374]:
+                  - generic [ref=e375]: Mr. Suresh Guru
+                  - generic [ref=e376]: 1.4M
+            - article "Siri Ravula Chary @siriravula.chary with 719K followers" [ref=e377]:
+              - generic [ref=e379]:
+                - generic [ref=e380]: Telugu
+                - generic [ref=e381]: "@siriravula.chary"
+                - generic [ref=e382]:
+                  - generic [ref=e383]: Siri Ravula Chary
+                  - generic [ref=e384]: 719K
+            - article "Kandimalla Sakethraju @raju_dhee10 with 885K followers" [ref=e385]:
+              - generic [ref=e386]: Photo pending
+              - generic [ref=e387]:
+                - generic [ref=e388]: Telugu
+                - generic [ref=e389]: "@raju_dhee10"
+                - generic [ref=e390]:
+                  - generic [ref=e391]: Kandimalla Sakethraju
+                  - generic [ref=e392]: 885K
+            - article "G RatnaKumar @nani_josh_ with 591K followers" [ref=e393]:
+              - generic [ref=e394]: Photo pending
+              - generic [ref=e395]:
+                - generic [ref=e396]: Telugu
+                - generic [ref=e397]: "@nani_josh_"
+                - generic [ref=e398]:
+                  - generic [ref=e399]: G RatnaKumar
+                  - generic [ref=e400]: 591K
+            - article "Dharani Gudla @dharanigudla with 433K followers" [ref=e401]:
+              - generic [ref=e402]: Photo pending
+              - generic [ref=e403]:
+                - generic [ref=e404]: Telugu
+                - generic [ref=e405]: "@dharanigudla"
+                - generic [ref=e406]:
+                  - generic [ref=e407]: Dharani Gudla
+                  - generic [ref=e408]: 433K
+            - article "Bad Boys @bad_boys_an with 620K followers" [ref=e409]:
+              - generic [ref=e410]: Photo pending
+              - generic [ref=e411]:
+                - generic [ref=e412]: Telugu
+                - generic [ref=e413]: "@bad_boys_an"
+                - generic [ref=e414]:
+                  - generic [ref=e415]: Bad Boys
+                  - generic [ref=e416]: 620K
+            - article "Mummy @_sridhar_chapa_ with 497K followers" [ref=e417]:
+              - generic [ref=e418]: Photo pending
+              - generic [ref=e419]:
+                - generic [ref=e420]: Telugu
+                - generic [ref=e421]: "@_sridhar_chapa_"
+                - generic [ref=e422]:
+                  - generic [ref=e423]: Mummy
+                  - generic [ref=e424]: 497K
+            - article "Happy Queen @happy_d_queen_ with 452K followers" [ref=e425]:
+              - generic [ref=e426]: Photo pending
+              - generic [ref=e427]:
+                - generic [ref=e428]: Telugu
+                - generic [ref=e429]: "@happy_d_queen_"
+                - generic [ref=e430]:
+                  - generic [ref=e431]: Happy Queen
+                  - generic [ref=e432]: 452K
+          - generic [ref=e433]:
+            - generic [ref=e434]: Telugu creators
+            - generic [ref=e435]: Instagram creator network
+    - generic [ref=e437]:
+      - generic [ref=e438]:
+        - heading "From brief to breakthrough." [level=2] [ref=e439]
+        - paragraph [ref=e441]: A four-stage system we've sharpened across hundreds of campaigns — calibrated for India's regional complexity.
+      - generic [ref=e442]:
+        - generic [ref=e443]:
+          - generic [ref=e444]: — 01 UNDERSTAND
+          - heading "Requirements." [level=3] [ref=e445]
+          - paragraph [ref=e446]: Map audience, language, region, and category. Understand brand positioning, market context, and campaign objectives before creative begins.
+        - generic [ref=e447]:
+          - generic [ref=e448]: — 02 CONTENT WRITING
+          - heading "Create." [level=3] [ref=e449]
+          - paragraph [ref=e450]: Scripts, copy, visuals, and creator briefs crafted for regional resonance. Every message tuned for audience and platform.
+        - generic [ref=e451]:
+          - generic [ref=e452]: — 03 EXECUTION
+          - heading "Launch." [level=3] [ref=e453]
+          - paragraph [ref=e454]: Influencers posting. Ads live across social and search. Out-of-home placements live. Campaigns activate across all channels simultaneously.
+        - generic [ref=e455]:
+          - generic [ref=e456]: — 04 REPORTING
+          - heading "Measure." [level=3] [ref=e457]
+          - paragraph [ref=e458]: Daily dashboards. Weekly analysis. Real-time optimization. Honest reads on what worked, what didn't, and what's next.
+    - generic [ref=e460]:
+      - generic [ref=e461]:
+        - heading "What founders say about us." [level=2] [ref=e462]:
+          - text: What founders
+          - text: say about us.
+        - generic [ref=e464]: Receipts · 03
+      - generic [ref=e466]:
+        - generic [ref=e467]:
+          - generic [ref=e468]: “
+          - paragraph [ref=e469]: They understood our brand in Telugu and Tamil before we could even brief them. Leads tripled in six weeks.
+          - generic [ref=e470]:
+            - generic [ref=e471]: RV
+            - generic [ref=e472]:
+              - strong [ref=e473]: Rahul V.
+              - text: Founder · Ed-tech, Hyderabad
+        - generic [ref=e474]:
+          - generic [ref=e475]: “
+          - paragraph [ref=e476]: We wanted an agency that understood the street, not just the algorithm. Wealth delivers both, without the agency theatre.
+          - generic [ref=e477]:
+            - generic [ref=e478]: AK
+            - generic [ref=e479]:
+              - strong [ref=e480]: Ayesha K.
+              - text: CMO · D2C Beauty
+        - generic [ref=e481]:
+          - generic [ref=e482]: “
+          - paragraph [ref=e483]: Metro wraps, bus shelters, and reels — all scheduled around the same launch window. It just worked.
+          - generic [ref=e484]:
+            - generic [ref=e485]: SM
+            - generic [ref=e486]:
+              - strong [ref=e487]: Salim M.
+              - text: Marketing Head · Retail
+  - contentinfo [ref=e488]:
+    - generic [ref=e489]:
+      - generic [ref=e490]:
+        - paragraph [ref=e491]: Based in Hyderabad · Serving 22 states
+        - heading "Let's build something that earns attention." [level=2] [ref=e493]:
+          - text: Let's build
+          - text: something that earns attention.
+        - link "Start a project" [ref=e495] [cursor=pointer]:
+          - /url: contact.html
+          - text: Start a project
+          - img [ref=e497]
+      - generic [ref=e499]:
+        - heading "Studio" [level=4] [ref=e501]
+        - generic [ref=e502]:
+          - heading "Pages" [level=4] [ref=e503]
+          - link "Home" [ref=e504] [cursor=pointer]:
+            - /url: index.html
+          - link "Services" [ref=e505] [cursor=pointer]:
+            - /url: services.html
+          - link "Works" [ref=e506] [cursor=pointer]:
+            - /url: works.html
+          - link "About" [ref=e507] [cursor=pointer]:
+            - /url: about.html
+          - link "Contact" [ref=e508] [cursor=pointer]:
+            - /url: contact.html
+        - generic [ref=e509]:
+          - heading "Services" [level=4] [ref=e510]
+          - link "Branding Solution" [ref=e511] [cursor=pointer]:
+            - /url: branding-solution.html
+          - link "Digital Marketing" [ref=e512] [cursor=pointer]:
+            - /url: digital-marketing.html
+          - link "Strategy & Planning" [ref=e513] [cursor=pointer]:
+            - /url: strategy-and-planning.html
+          - link "Business Analysis" [ref=e514] [cursor=pointer]:
+            - /url: business-analysis.html
+          - link "Market Research" [ref=e515] [cursor=pointer]:
+            - /url: market-research.html
+          - link "Offline Marketing" [ref=e516] [cursor=pointer]:
+            - /url: services.html#offline
+        - generic [ref=e517]:
+          - heading "Contact" [level=4] [ref=e518]
+          - link "salman@wealthmediagency.com" [ref=e519] [cursor=pointer]:
+            - /url: mailto:salman@wealthmediagency.com
+          - link "+91 93469 07002" [ref=e520] [cursor=pointer]:
+            - /url: tel:+919346907002
+          - link "Instagram" [ref=e521] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=e522] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e523]:
+        - generic [ref=e524]: © 2026 Wealth Media Agency — All rights reserved.
+        - generic [ref=e525]: Results-driven. Regionally fluent.
