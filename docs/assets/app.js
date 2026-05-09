@@ -102,17 +102,17 @@ if(campaignCarousel){
   const startAutoplay = ()=>{
     if(reduceMotion || cards.length < 2) return;
     stopAutoplay();
-    autoplay = window.setInterval(()=>goToCampaign(activeIndex + 1), 3600);
+    autoplay = window.setInterval(()=>goToCampaign(activeIndex + 2), 3600);
   };
 
   prevButton?.addEventListener('click', ()=>{
     setActiveFromScroll();
-    goToCampaign(activeIndex - 1);
+    goToCampaign(activeIndex - 2);
     startAutoplay();
   });
   nextButton?.addEventListener('click', ()=>{
     setActiveFromScroll();
-    goToCampaign(activeIndex + 1);
+    goToCampaign(activeIndex + 2);
     startAutoplay();
   });
   viewport.addEventListener('scroll', ()=>{
