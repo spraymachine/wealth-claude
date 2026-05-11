@@ -1774,11 +1774,7 @@ footer::before{content:"";position:absolute;top:-400px;left:50%;transform:transl
 .founder-profile--support{align-self:end;margin-top:8rem;margin-bottom:1.5rem}
 .founder-profile__photo{
   min-height:18rem;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  gap:0.85rem;
+  position:relative;
   background:
     radial-gradient(circle at 50% 30%, rgba(71,125,235,0.22), transparent 28%),
     linear-gradient(rgba(255,255,255,0.055) 1px, transparent 1px),
@@ -1786,8 +1782,27 @@ footer::before{content:"";position:absolute;top:-400px;left:50%;transform:transl
     linear-gradient(145deg, rgba(255,255,255,0.12), rgba(255,255,255,0.02));
   background-size:auto,26px 26px,26px 26px,auto;
   border-bottom:1px solid rgba(255,255,255,0.11);
+  overflow:hidden;
 }
 .founder-profile--support .founder-profile__photo{min-height:15rem}
+.founder-profile__photo img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  filter:saturate(0.94) contrast(1.04);
+}
+.founder-profile--lead .founder-profile__photo img{object-position:50% 46%}
+.founder-profile--support .founder-profile__photo img{object-position:50% 36%}
+.founder-profile__photo::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(to bottom, rgba(7,17,32,0.04), rgba(7,17,32,0.12));
+  pointer-events:none;
+}
 .founder-profile__photo span{
   width:5rem;
   height:5rem;
@@ -1824,6 +1839,57 @@ footer::before{content:"";position:absolute;top:-400px;left:50%;transform:transl
   .founder-stage::before{display:none}
   .founder-profile--support{margin-top:0}
   .founder-profile__photo,.founder-profile--support .founder-profile__photo{min-height:15rem}
+}
+
+/* --- Team story (about.html) ------------------------ */
+.team-story{
+  padding:clamp(4rem,8vw,7rem) 0 clamp(5rem,9vw,8rem);
+  background:#071120;
+  color:var(--white);
+  position:relative;
+  overflow:hidden;
+}
+.team-story::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(to bottom, rgba(255,255,255,0.035), transparent 28%);
+  pointer-events:none;
+}
+.team-story .wrap{position:relative;display:grid;gap:clamp(2rem,5vw,4rem)}
+.team-story__media{
+  min-height:clamp(20rem,42vw,34rem);
+  border-radius:1.25rem;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,0.12);
+  box-shadow:0 36px 90px -56px rgba(4,10,22,0.9);
+  background:rgba(255,255,255,0.05);
+}
+.team-story__media img{width:100%;height:100%;display:block;object-fit:cover;object-position:56% 50%;filter:saturate(0.92) contrast(1.03)}
+.team-story__content{
+  display:grid;
+  grid-template-columns:minmax(0,0.9fr) minmax(18rem,0.72fr);
+  column-gap:clamp(2rem,6vw,7rem);
+  row-gap:1.5rem;
+  align-items:end;
+  max-width:100%;
+}
+.team-story__content .eyebrow{background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.12);color:rgba(255,255,255,0.72)}
+.team-story__content .eyebrow{grid-column:1/-1;width:max-content}
+.team-story__content h2{color:var(--white);font-size:clamp(3rem,5.5vw,6.2rem);line-height:0.92;letter-spacing:-0.055em;text-wrap:balance}
+.team-story__content h2 .serif{color:rgba(255,255,255,0.72)}
+.team-story__copy{display:grid;gap:1rem;color:rgba(255,255,255,0.68);line-height:1.62}
+.team-story__points{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;border:1px solid rgba(255,255,255,0.1);background:rgba(255,255,255,0.08)}
+.team-story__points span{padding:0.95rem 1rem;background:rgba(7,17,32,0.82);color:rgba(255,255,255,0.72);font-size:0.74rem;letter-spacing:0.12em;text-transform:uppercase}
+@media (max-width:900px){
+  .team-story__content{grid-template-columns:1fr;max-width:42rem}
+  .team-story__points{grid-template-columns:1fr}
+}
+@media (max-width:520px){
+  .team-story{padding-top:3rem}
+  .team-story__media{min-height:22rem}
+  .team-story__media img{object-position:52% 50%}
+  .team-story__content h2{font-size:clamp(2.7rem,12vw,3.8rem)}
 }
 
 /* --- Logo grid (works.html) ------------------------- */
