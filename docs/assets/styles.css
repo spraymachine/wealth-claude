@@ -626,13 +626,13 @@ section{padding:clamp(5rem, 10vw, 10rem) 0;position:relative}
 }
 .campaign-card__media--image{
   background-color:rgba(255,255,255,0.1);
-  background-size:cover;
+  background-size:contain;
   background-position:center;
   background-repeat:no-repeat;
 }
 .campaign-card__media--logo{
   background-color:rgba(255,255,255,0.92);
-  background-size:82% auto;
+  background-size:contain;
 }
 .campaign-card__media--contain{
   background-color:rgba(255,255,255,0.94);
@@ -640,11 +640,11 @@ section{padding:clamp(5rem, 10vw, 10rem) 0;position:relative}
 }
 .campaign-card__media--product{
   background-color:rgba(255,255,255,0.9);
-  background-size:cover;
+  background-size:contain;
 }
 .campaign-card__media--poster,
 .campaign-card__media--photo{
-  background-size:cover;
+  background-size:contain;
 }
 .campaign-card__media::before{
   content:"";
